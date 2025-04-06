@@ -43,4 +43,4 @@ ani = animation.FuncAnimation(fig, animate, frames=num_frames,
                               init_func=init, blit=True)
 
 # Salvar ou exibir
-ani.save('onda_propagacao.mp4', fps=144, extra_args=['-vcodec', 'libx264'])
+ani.save('onda_propagacao.mp4', fps=60, extra_args=['-vcodec', 'libx264'])

@@ -3,9 +3,9 @@
       real*8:: y(1000)
       complex*16:: X
       
-      open(unit = 10, file = "saida_2_13862330.out")
-      open(unit = 20, file = "real_13862330.out") 
-      open(unit = 30, file = "img_13862330.out")
+      open(unit = 10, file = "saida_2_k4_13862330.out")
+      open(unit = 20, file = "real_k4_13862330.out") 
+      open(unit = 30, file = "img_k4_13862330.out")
 
       n = 1000
 

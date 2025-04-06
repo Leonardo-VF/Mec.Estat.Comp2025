@@ -3,7 +3,7 @@ program tarefa1
     integer, parameter :: max = 1000
     real*8 :: x(0:max), y_prev(0:max), y_curr(0:max), y_next(0:max)
 
-    open(unit = 10, file="saida_3_13862330.out")
+    open(unit = 10, file="saida_1_13862330.out")
 
     L = 1.0d0
     c = 300.0d0
@@ -46,7 +46,7 @@ program tarefa1
     end do
 
     close(10)
-end program tarefa1
+end program
 
 function f(x, L) result(y)
     implicit real*8 (a-h, o-z)

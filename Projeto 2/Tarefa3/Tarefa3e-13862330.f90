@@ -1,4 +1,4 @@
-program tarefa1
+program tarefa3e
     implicit real*8 (a-h, o-z)
     integer, parameter :: max = 1000
     real*8 :: x(0:max), y_prev(0:max), y_curr(0:max), y_next(0:max)
@@ -22,7 +22,7 @@ program tarefa1
         end do
 
         y_curr(0) = 0.0d0
-        y_next(max) = y_prev(max-1)
+        y_next(max) = y_next(max-1)
 
         y_prev = y_curr
 
@@ -32,7 +32,7 @@ program tarefa1
             end do
 
             y_next(0) = 0.0d0
-            y_next(max) = y_prev(max-1)
+            y_next(max) = y_next(max-1)
 
             y_prev = y_curr
             y_curr = y_next

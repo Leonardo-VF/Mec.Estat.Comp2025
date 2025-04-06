@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 
 # Carregar todos os dados do arquivo
-data = np.loadtxt('saida_1_13862330.out')
+data = np.loadtxt(('saida_3e_13862330.out'))
 
 # Número de linhas por frame
 lines_per_frame = 1001
@@ -43,4 +43,4 @@ ani = animation.FuncAnimation(fig, animate, frames=num_frames,
                               init_func=init, blit=True)
 
 # Salvar ou exibir
-ani.save('onda_propagacao_r1.mp4', fps=60, extra_args=['-vcodec', 'libx264'])
+ani.save('onda_livre_13862330.mp4', fps=60, extra_args=['-vcodec', 'libx264'])
