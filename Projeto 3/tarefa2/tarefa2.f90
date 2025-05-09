@@ -4,7 +4,7 @@ program DLA
     integer, parameter :: num_particles = 2000
     real*8, parameter :: pi = acos(-1.0d0)
     integer :: mesh(N,N), particles(2, num_particles), val(2)
-    integer :: i, j, cord, val_pos
+    integer :: i, cord, val_pos
     real*8 :: r, k, max_radius, theta, spawn_radius
 
     open(unit=10, file="saida_1_13862330.out")
