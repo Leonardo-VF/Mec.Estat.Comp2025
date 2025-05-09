@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 
 # Parâmetros
-N = 150  # Tamanho da malha
+N = 200  # Tamanho da malha
 arquivo_saida = "saida_1_13862330.out"  # Nome do arquivo gerado no Fortran
 
 # Ler o arquivo
